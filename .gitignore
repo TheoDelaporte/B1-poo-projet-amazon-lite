@@ -1,0 +1,23 @@
+# --- Java ---
+# Ignore tous les fichiers compilés .class
+*.class
+
+# Ignore les fichiers logs s'il y en a
+*.log
+
+# --- Dossiers de compilation classiques (si tu utilises un IDE plus tard) ---
+bin/
+out/
+target/
+
+# --- IDE (Configuration locale à ne pas partager) ---
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# --- Système d'exploitation ---
+.DS_Store
+Thumbs.db
